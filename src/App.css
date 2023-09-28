@@ -1,0 +1,91 @@
+body{
+  background-color: black;
+}
+
+.btn-section{
+  padding: 2rem;
+  background-color: rgb(9,9,11);
+  border-bottom: 1px solid rgb(50, 48, 48);
+  margin: 6rem 0.8rem;
+}
+
+.container .button-container{
+  border-radius: 22px;
+width: fit-content;
+padding: 0;
+background-color: rgb(23, 23, 27);
+}
+.container .btn{
+  border-radius: 22px;
+  margin-right: 0;
+  padding: 0.8rem 1.5rem;
+  width: 10rem;
+  font-weight: bolder;
+}
+
+
+.btn:nth-child(2),.btn:nth-child(3){
+  background-color: rgb(23, 23, 27);
+border: none;
+color: white;
+}
+
+
+.content-section{
+  display: flex;
+  margin: 0 4rem;
+  gap: 3rem;
+}
+
+.card1 , .card2{
+  display: flex;
+  flex-direction: column;
+}
+
+.card1{
+  width: 50%;
+
+  border-radius: 10px;
+  height: 25rem;
+  border: 1px solid rgb(50, 48, 48);
+  padding: 1rem 3rem;
+}
+
+.card1 label{
+  color:white;
+  font-size: 1.5rem;
+}
+
+.dropdown{
+background-color:rgb(23, 23, 27) ;
+padding: 1rem;
+color: white;
+border-radius: 10px;
+margin-top: 1rem;
+}
+
+.dropdown option{
+  padding: 0.5rem;
+  background-color: white;
+ border-radius: 10px;
+ margin-top: 1rem;
+}
+
+.card2{
+  gap: 1rem;
+  width: 50%;
+
+}
+
+.sub-card1 , .sub-card2{
+
+  border-radius: 10px;
+  border: 1px solid rgb(50, 48, 48);
+}
+
+.sub-card1{
+  height: 15rem;
+}
+.sub-card2{
+  height: 8.8rem;
+}
