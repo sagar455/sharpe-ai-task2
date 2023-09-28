@@ -1,21 +1,23 @@
-body{
+body {
   background-color: black;
 }
 
-.btn-section{
+.btn-section {
   padding: 2rem;
-  background-color: rgb(9,9,11);
+  background-color: rgb(9, 9, 11);
   border-bottom: 1px solid rgb(50, 48, 48);
-  margin: 6rem 0.8rem;
+  margin: 0 0.8rem;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
 }
 
-.container .button-container{
+.container .button-container {
   border-radius: 22px;
-width: fit-content;
-padding: 0;
-background-color: rgb(23, 23, 27);
+  width: fit-content;
+  padding: 0;
+  background-color: rgb(23, 23, 27);
 }
-.container .btn{
+.container .btn {
   border-radius: 22px;
   margin-right: 0;
   padding: 0.8rem 1.5rem;
@@ -23,26 +25,26 @@ background-color: rgb(23, 23, 27);
   font-weight: bolder;
 }
 
-
-.btn:nth-child(2),.btn:nth-child(3){
+.btn:nth-child(2),
+.btn:nth-child(3) {
   background-color: rgb(23, 23, 27);
-border: none;
-color: white;
+  border: none;
+  color: white;
 }
 
-
-.content-section{
+.content-section {
   display: flex;
   margin: 0 4rem;
   gap: 3rem;
 }
 
-.card1 , .card2{
+.card1,
+.card2 {
   display: flex;
   flex-direction: column;
 }
 
-.card1{
+.card1 {
   width: 50%;
 
   border-radius: 10px;
@@ -51,41 +53,81 @@ color: white;
   padding: 1rem 3rem;
 }
 
-.card1 label{
-  color:white;
+.card1 label {
+  color: white;
   font-size: 1.5rem;
 }
 
-.dropdown{
-background-color:rgb(23, 23, 27) ;
-padding: 1rem;
-color: white;
-border-radius: 10px;
-margin-top: 1rem;
+.dropdown {
+  background-color: rgb(23, 23, 27);
+  padding: 1rem;
+  color: white;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
 }
 
-.dropdown option{
+.dropdown option {
   padding: 0.5rem;
   background-color: white;
- border-radius: 10px;
- margin-top: 1rem;
+  border-radius: 10px;
 }
 
-.card2{
+.badge {
+  color: white;
+  background-color: rgb(23, 23, 27);
+  width: fit-content;
+  font-size: 14px;
+  padding: 0.4rem 0.8rem;
+  border-radius: 10px;
+  border: 1px solid rgb(50, 48, 48);
+  position: absolute;
+  top: -1.7rem;
+  right: 0;
+}
+
+.card1 input {
+  margin-top: 1rem;
+  background-color: rgb(23, 23, 27);
+  padding: 1rem;
+  color: white;
+  border-radius: 10px;
+  width: 95%;
+}
+
+.card2 {
   gap: 1rem;
   width: 50%;
-
 }
 
-.sub-card1 , .sub-card2{
-
+.sub-card1,
+.sub-card2 {
   border-radius: 10px;
   border: 1px solid rgb(50, 48, 48);
 }
 
-.sub-card1{
+.sub-card1 {
   height: 15rem;
 }
-.sub-card2{
+.sub-card2 {
   height: 8.8rem;
+}
+
+.output {
+  color: white;
+  padding: 1rem;
+  height: 10rem;
+  border: 1px solid rgb(50, 48, 48);
+}
+
+.execute-btn {
+  padding: 1rem;
+  width: 30%;
+  border-radius: 12px;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.input-container {
+  position: relative;
 }
